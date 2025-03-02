@@ -82,6 +82,8 @@ Things you may want to cover:
 
     - t.timestamps is a shortcut for defining two columns on your models: created_at:datetime and updated_at:datetime. These are automatically set by Active Record when creating or updating records
 
+    -
+
 
 
 * ...
