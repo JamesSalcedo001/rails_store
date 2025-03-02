@@ -42,7 +42,7 @@ Things you may want to cover:
     or 
 
      
-    rails s
+    $rails s
      
     
     to start up a web server called Puma that will serve static files and the Rails app 
@@ -56,7 +56,7 @@ Things you may want to cover:
     - Run the command:
     
  
-        rails generate model Product name:string
+        $rails generate model Product name:string
 
 
     to add a database table to the Rails app to add products to this simple e-commerce store
@@ -82,7 +82,20 @@ Things you may want to cover:
 
     - t.timestamps is a shortcut for defining two columns on your models: created_at:datetime and updated_at:datetime. These are automatically set by Active Record when creating or updating records
 
-    -
+5: Running Migrations
+
+    - after determining what changes to make to the database, use the following command to run the migrations:
+
+        $rails db:migrate
+
+    which checks for any new migrations and applies them to your database
+
+    - if you make a mistake, you can undo the last migration by running:
+
+        $rails db:rollback
+
+
+
 
 
 
