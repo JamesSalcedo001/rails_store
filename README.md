@@ -24,12 +24,11 @@ Things you may want to cover:
 
 ## Notes Section
 
-1: Directory Structure
+1: Model-View-Controller Basics
 
-    - app: contains controllers, models, views, helpers, mailers, jobs, and assets for the app
+    * Rails Code is organized using the MVC architecture. With MVC there are 3 main concepts where the majority of the code lives: 
 
-    - bin: contains rails script that starts the app and can contain other scripts one uses to set up, update, deploy or run the app
-
-
-
+        - Model: Manages the data in your app. Typically your database tables
+        - View: Handles rendering responses in different formats like HTML, XML or JSON etc.
+        - Controller: Handles user interactions and the logic for each request
 * ...
