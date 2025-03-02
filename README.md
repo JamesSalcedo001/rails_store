@@ -37,4 +37,8 @@ Things you may want to cover:
     * Run the command $rails server or rails s to start up a web server called Puma that will serve static files and the Rails app 
 
     * Autoloading in development: the Rails server will detect changes to code and auto reload every time one is made. Rails also rarely uses require statement explicitly because it uses naming conventions to require files automatically.
+
+3: Creating a Database Model
+
+    * Active Record is a feature of Rails that maps relational databases to Ruby code. It helps generate the SQL for interacting with the database like creating, updating, and deleting tables and records. Here, SQLite will be used, which is the default for Rails.
 * ...
