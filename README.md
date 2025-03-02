@@ -21,4 +21,15 @@ Things you may want to cover:
 
 * Deployment instructions
 
+
+## Notes Section
+
+1: Directory Structure
+
+    - app: contains controllers, models, views, helpers, mailers, jobs, and assets for the app
+
+    - bin: contains rails script that starts the app and can contain other scripts one uses to set up, update, deploy or run the app
+
+
+
 * ...
