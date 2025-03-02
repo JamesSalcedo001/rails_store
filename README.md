@@ -122,7 +122,25 @@ Things you may want to cover:
     - Rails asked the database for column info above and used that info to define attributes on the Product class dynamically so you don't have to manually define each of them. 
 
 
+8: Creating Records
 
+    - instantiate a new product with the following:
+
+        $product = Product.new(name: "T-Shirt")
+    
+    - the product variable is an instance of Product. It has not been saved to the db, so does not have an ID, created_at, or updated_at timestamps
+
+    - call save to write the record to the db:
+
+        $product.save
+
+    - when save is called, Rails takes the attribute in memory and generates an INSERT SQL Query to insert this record into the database. Rails also updates the object in memory with the db record id along with the created_at and updated_at timestamps. which one can see by printing the product variable:
+
+        $product
+
+    - the new + save methods work in a similar way as the create method, doing both at once, instantiating and saving an Active Record object in a single call:
+
+        $ Product.create(name: "Pants")
 
 
 * ...
