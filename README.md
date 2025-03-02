@@ -36,9 +36,14 @@ Things you may want to cover:
 
     * Run the command:
 
-    `$rails server` 
-     or 
-    `rails s` 
+    ```python 
+    rails server
+    ``` 
+    or 
+
+    ```python 
+    rails s
+    ``` 
     
     to start up a web server called Puma that will serve static files and the Rails app 
 
@@ -50,7 +55,9 @@ Things you may want to cover:
 
     - Run the command:
     
-    `$rails generate model Product name:string`
+```python 
+rails generate model Product name:string
+```
 
         to add a database table to the Rails app to add products to this simple e-commerce store
 
