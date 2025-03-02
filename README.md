@@ -94,7 +94,16 @@ Things you may want to cover:
 
         $rails db:rollback
 
+6: Rails Console
 
+    - rails console is an interactive tool for testing our code in our Rails app
+
+        $rails console or rails c
+
+    - in the console, code will be executed when hitting enter
+
+        $Rails.version
+        => "8.0.1"
 
 
 
