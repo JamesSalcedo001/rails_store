@@ -35,4 +35,6 @@ Things you may want to cover:
 2: Running the server
 
     * Run the command $rails server or rails s to start up a web server called Puma that will serve static files and the Rails app 
+
+    * Autoloading in development: the Rails server will detect changes to code and auto reload every time one is made. Rails also rarely uses require statement explicitly because it uses naming conventions to require files automatically.
 * ...
