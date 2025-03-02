@@ -106,6 +106,23 @@ Things you may want to cover:
         => "8.0.1"
 
 
+7: Active Record Basics
+
+    - when we ran the Rails Model generator to create Product model, it created the model file in app/models/product.rb. the file creates a class that uses Active Record for interacting with our products table.
+
+    - Q: how does Rails know with no code in the class what defines the model?
+    - A: when the product model is used, Rails will query the database table for the column names and types and automatically generate code for these attributes. Rails saves us from writing this boilerplate code and instead takes care of it for us behind the scenes so we can focus on the app logic instead. 
+
+    - checking to see what colummns Rails detects for the Product Model with the command: 
+
+        $Product.column_names
+        =>  ["id", "name", "created_at", "updated_at"]
+
+
+    - Rails asked the database for column info above and used that info to define attributes on the Product class dynamically so you don't have to manually define each of them. 
+
+
+
 
 
 * ...
